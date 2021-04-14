@@ -1,5 +1,6 @@
 ## Zoo Functions
 Projeto desenvolvido na Trybe com o objetivo de implementar funções relativas ao funcionamento de um zoológico, usando JS e testes unitários.
+Funções desenvolvidas em /src/zoo.js
 
 
 ## Habilidades desenvolvidas:
