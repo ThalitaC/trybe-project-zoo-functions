@@ -73,10 +73,6 @@ function entryCalculator(entrants) {
   return parseFloat((seniorsPrice + adultsPrice + childsPrice).toFixed(2));
 }
 
-// function animalMap(options) {
-//   // seu código aqui
-// }
-
 function schedule(dayName) {
   const weekSchedule = {};
   const weekDays = Object.keys(hours);
@@ -95,10 +91,6 @@ function schedule(dayName) {
     [dayName]: weekSchedule[dayName],
   };
 }
-
-// function oldestFromFirstSpecies(id) {
-//   // seu código aqui
-// }
 
 function increasePrices(percentage) {
   const percent = (1 + (percentage / 100));
@@ -128,14 +120,12 @@ module.exports = {
   entryCalculator,
   schedule,
   animalCount,
-  // animalMap,
   animalsByIds,
   employeeByName,
   employeeCoverage,
   addEmployee,
   isManager,
   animalsOlderThan,
-  // oldestFromFirstSpecies,
   increasePrices,
   createEmployee,
 };
